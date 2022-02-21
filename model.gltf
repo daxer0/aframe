@@ -1,0 +1,137 @@
+{
+    "asset": {
+        "generator": "https://3dviewer.net",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0
+        }
+    ],
+    "materials": [
+        {
+            "name": "TrumpLPmat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                }
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "doubleSided": true,
+            "alphaMode": "OPAQUE"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "trump_lp_model",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 0
+                }
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "model.bin",
+            "byteLength": 136728
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 15192
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 15192,
+            "byteLength": 45576
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 60768,
+            "byteLength": 45576
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 106344,
+            "byteLength": 30384
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 3798,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3798,
+            "min": [
+                -111.7613754272461,
+                -48.41691970825195,
+                -0.00974416732788086
+            ],
+            "max": [
+                111.7613754272461,
+                30.863929748535156,
+                186.45455932617188
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3798,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3798,
+            "type": "VEC2"
+        }
+    ],
+    "images": [
+        {
+            "uri": "tumpLPcolors.png"
+        }
+    ],
+    "textures": [
+        {
+            "source": 0
+        }
+    ]
+}
